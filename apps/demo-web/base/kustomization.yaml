@@ -10,7 +10,6 @@ configMapGenerator:
     files:
       - web/index.html
       - web/style.css
-      - web/background.webp
 
 generatorOptions:
   disableNameSuffixHash: false

@@ -4,7 +4,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background:
     linear-gradient(rgba(15, 23, 42, 0.35), rgba(15, 23, 42, 0.35)),
-    url("./background.webp");
+    url("https://raw.githubusercontent.com/reyes44/homelab-k8s/staging/apps/demo-web/base/web/background.webp");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

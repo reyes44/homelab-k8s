@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homelab Kubernetes Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <p class="badge">Kubernetes GitOps Lab</p>
+      <h1>Demo Web en k3s</h1>
+      <p>
+        Esta web está desplegada en Kubernetes usando Argo CD,
+        ingress-nginx, MetalLB y cert-manager.
+      </p>
+
+      <div class="grid">
+        <div>
+          <span>Entorno</span>
+          <strong>Staging / Prod</strong>
+        </div>
+        <div>
+          <span>Gestionado por</span>
+          <strong>Argo CD</strong>
+        </div>
+        <div>
+          <span>Entrada</span>
+          <strong>Ingress NGINX</strong>
+        </div>
+      </div>
+
+      <p class="footer">
+        Cambio visible desde GitOps: fondo personalizado activo.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
