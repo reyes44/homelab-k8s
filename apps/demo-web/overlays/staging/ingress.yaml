@@ -4,7 +4,7 @@ metadata:
   name: demo-web
   namespace: demo-staging
   annotations:
-    cert-manager.io/cluster-issuer: letsencrypt-staging-cloudflare
+    cert-manager.io/cluster-issuer: letsencrypt-prod-cloudflare
 spec:
   ingressClassName: nginx
   tls:
